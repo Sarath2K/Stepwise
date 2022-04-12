@@ -99,6 +99,22 @@ function Drops_Vaccination() {
                     <span>Mother Name</span>
                   </p>
                 </div>
+                <div className="col-md-4">
+                  <select className="form-control">
+                    <option>1</option>
+                  </select>
+                </div>
+                <div className="col-md-4">
+                  <input type="datetime-local" className="form-control" />
+                </div>
+                <div className="col-md-4">
+                  <select className="form-control">
+                    <option>Dr</option>
+                  </select>
+                </div>
+              </div>
+              <div className="pt-4  text-center">
+                <input type="submit" value="Save" className="btn w-50" />
               </div>
             </form>
           </div>

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
   background-color: #00B4D8;
 }
@@ -33,4 +40,30 @@
 sup {
   font-size: 16px;
   color: red;
+}
+
+.sidebar {
+  height: 100%;
+  background-color: #00B4D8;
+  font-weight: 600;
+  color: #fff;
+}
+
+.gender-symbol {
+  font-size: 36px;
+  color: #00B4D8;
+}
+
+.count-panel {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.count-birth {
+  color: #00B4D8;
+}
+
+.ruler-smooth {
+  background-color: #00B4D8;
+  border: 2px solid #00B4D8;
 }

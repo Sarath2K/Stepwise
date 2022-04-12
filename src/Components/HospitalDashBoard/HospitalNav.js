@@ -1,6 +1,7 @@
 import React from "react";
 import BirthReg from "./BirthReg";
 import Drops_Vaccination from "./Drops_Vaccination";
+import ControlPanel from "./ControlPanel";
 
 function HospitalNav() {
   return (
@@ -87,7 +88,9 @@ function HospitalNav() {
             aria-labelledby="collapseDashboard"
             data-parent="#accordion"
           >
-            <div className="card m-5 p-4">Dashboard</div>
+            <div className=" m-5 p-4 h-100">
+              <ControlPanel />
+            </div>
           </div>
           <div
             id="collapseBirthReg"
